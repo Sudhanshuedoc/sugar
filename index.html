@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sugar cosmetics</title>
+    <style>
+      #parent {
+        width: 95%;
+        height: 100vh;
+        /* border: 5px solid blue; */
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+          rgb(51, 51, 51) 0px 0px 0px 3px;
+        margin: auto;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* gap: 10px 180px; */
+        text-align: center;
+      }
+      .child {
+        /* border: 2px solid red; */
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .child > div {
+        /* border: 2px solid blue; */
+        height: 70%;
+      }
+      .child > div > img {
+        width: 100%;
+        height: 100%;
+      }
+      button {
+        padding: 10px;
+        border: 1px dashed red;
+        color: red;
+        position: relative;
+        top: 30px;
+        cursor: pointer;
+      }
+      @media (min-width: 100px) {
+        #parent {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+      @media (min-width: 400px) {
+        #parent {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (min-width: 800px) {
+        #parent {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      @media (min-width: 1100px) {
+        #parent {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div class="child child1">
+        <div>
+          <img
+            src="https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+            alt=""
+          />
+        </div>
+        <button>BUY NOW</button>
+      </div>
+      <div class="child child2">
+        <div>
+          <img
+            src="https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+            alt=""
+          />
+        </div>
+        <button>BUY NOW</button>
+      </div>
+      <div class="child child3">
+        <div>
+          <img
+            src="https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+            alt=""
+          />
+        </div>
+        <button>BUY NOW</button>
+      </div>
+      <div class="child child4">
+        <div>
+          <img
+            src="https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+            alt=""
+          />
+        </div>
+        <button>BUY NOW</button>
+      </div>
+      <div class="child child5">
+        <div>
+          <img
+            src="https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+            alt=""
+          />
+        </div>
+        <button>BUY NOW</button>
+      </div>
+      <div class="child child6">
+        <div>
+          <img
+            src="https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+            alt=""
+          />
+        </div>
+        <button>BUY NOW</button>
+      </div>
+      <div class="child child7">
+        <div>
+          <img
+            src="https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+            alt=""
+          />
+        </div>
+        <button>BUY NOW</button>
+      </div>
+
+      <div class="child child8">
+        <div>
+          <img
+            src="https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+            alt=""
+          />
+        </div>
+        <button>BUY NOW</button>
+      </div>
+    </div>
+  </body>
+</html>
